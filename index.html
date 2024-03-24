@@ -9,6 +9,7 @@
 
     <!-- Links do CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,16 +29,16 @@
           />
         </a>
       </div>
-      <nav>
+      <nav class="nav-bar">
         <a href="#inicio" class="inicio">Início</a>
         <a href="#clinica" class="clinica">Clínica</a>
         <a href="#farmacia" class="farmacia">Farmácia</a>
         <a href="#duvidas" class="duvidas">Dúvidas</a>
       </nav>
     </header>
-    <main class="meio">
+    <main class="container">
       <section id="inicio">
-        <img src="./assets/img/start-img.svg" alt="" width="580" height="580" />
+        <img src="./assets/img/start-img.svg" alt="woman and dog high five" class="first-image" width="580" height="580" />
 
         <div>
           <h1>
@@ -49,10 +50,12 @@
             oferecemos uma experiência acolhedora e personalizada, garantindo o
             bem-estar, a saúde e a felicidade dos seus animais de estimação.
           </p>
-          <a class="botao" href="https://wa.me/55919999999999" target="_blank"
+          <div class="botoes">
+            <a class="botao" href="https://wa.me/55919999999999" target="_blank"
             >Marque sua consulta</a
           >
           <a class="botao-transparente" href="">Conheça nossa clínica</a>
+          </div>
         </div>
         <img class="absolute" src="./assets/img/shape.svg" alt="" />
       </section>
@@ -81,7 +84,8 @@
 
         <img
           src="./assets/img/clinic-img.svg"
-          alt=""
+          alt="vet with a dog"
+          class="second-image"
           width="480"
           height="480"
           loading="lazy"
@@ -92,12 +96,13 @@
         <h2>Venha conferir o nosso petshop e farmácia</h2>
         <img
           src="./assets/img/shop-img.svg"
-          alt=""
+          alt="a vet with cross arms"
+          class="third-image"
           width="645"
           height="430"
           loading="lazy"
         />
-        <p class="paragrafo">
+        <p class="paragrafo farm-p">
           Além de ser uma clínica veterinária de confiança, também contamos com
           um completo petshop e farmácia. Nosso petshop oferece uma ampla
           seleção de produtos de alta qualidade, desde alimentos balanceados e
@@ -114,7 +119,8 @@
       <section id="duvidas">
         <img
           src="./assets/img/faq-img.svg"
-          alt=""
+          alt="a boy and a girl looking to a laptop"
+          class="fourth-image"
           width="540"
           height="540"
           loading="lazy"
@@ -181,15 +187,15 @@
       </section>
     </main>
     <footer>
-      <div>
-        <img src="./assets/img/logo.svg" alt="" />
+      <div class="mensagem">
+        <img src="./assets/img/logo.svg" alt="logomarca petlife" />
         <p>
           Cuidando com amor, vivendo com alegria: PetLife, onde a vida dos pets
           é mais feliz!
         </p>
       </div>
 
-      <div>
+      <div class="links-rapidos">
         <strong class="titulo">Links Rápidos</strong>
         <nav>
           <a href="#inicio" class="inicio">Início</a>
@@ -199,7 +205,7 @@
         </nav>
       </div>
 
-      <div>
+      <div class="contatos">
         <strong class="titulo">Encontre-nos</strong>
         <p>
           WhatsApp:

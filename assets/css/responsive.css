@@ -1,0 +1,120 @@
+@media screen and (max-width: 650px) {
+  header {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .nav-bar {
+    display: flex;
+    padding: 5px;
+  }
+
+  header a {
+    padding: 2.5px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #inicio {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 40px;
+  }
+
+  h1, h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .first-image, .second-image, .fourth-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #clinica {
+    flex-direction: column-reverse;
+    gap: 16px;
+    padding: 32px 40px;
+  }
+
+  #farmacia {
+    padding: 32px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+  }
+
+  .third-image{
+    width: 350px;
+    height: 250px;
+    margin-top: 12px;
+  }
+
+  .farm-p {
+    margin-bottom: 16px;
+  }
+
+  #duvidas {
+    flex-direction: column;
+    padding: 32px 40px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    padding: 16px;
+    gap: 40px;
+    align-items: center;
+    border: 2px solid orange;
+  }
+
+  .mensagem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .mensagem img {
+    width: 125px;
+  }
+
+  .mensagem p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .links-rapidos{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid orange;
+  }
+
+  .links-rapidos nav {
+    display: flex;
+    gap: 16px;
+  }
+
+  .contatos{
+    display: flex;
+    flex-direction: column;
+  }
+}
